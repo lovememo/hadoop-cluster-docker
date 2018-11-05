@@ -3,6 +3,7 @@
 # test the hadoop cluster by running wordcount
 
 # create input files 
+rm -rf input
 mkdir input
 echo "Hello Docker" >input/file2.txt
 echo "Hello Hadoop" >input/file1.txt
