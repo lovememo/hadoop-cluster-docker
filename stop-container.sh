@@ -1,3 +1,3 @@
-docker rm -f hadoop-slave1
-docker rm -f hadoop-slave2
-docker rm -f hadoop-master
+sudo docker rm -f hadoop-slave1
+sudo docker rm -f hadoop-slave2
+sudo docker rm -f hadoop-master
