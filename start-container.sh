@@ -11,6 +11,9 @@ sudo docker run -itd \
                 --net=hadoop \
                 -p 50070:50070 \
                 -p 8088:8088 \
+				-v /home/lovememo/workspace/hadoop-cluster-docker/jars:/root/jars \
+				-v /home/lovememo/workspace/hadoop-cluster-docker/input:/root/input \
+				-v /home/lovememo/workspace/hadoop-cluster-docker/shell:/root/shell \
                 --name hadoop-master \
                 --hostname hadoop-master \
                 kiwenlau/hadoop:1.1 &> /dev/null
